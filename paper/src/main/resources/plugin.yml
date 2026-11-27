@@ -1,0 +1,17 @@
+name: ${mod_name}
+version: ${version}
+main: ${main}
+description: ${description}
+author: ${author}
+website: ${author_website}
+api-version: '1.21'
+folia-supported: true
+commands:
+  ${mod_id}:
+    description: Reloads the ${mod_name} configuration
+    usage: /<command> reload
+    permission: ${mod_id}.reload
+permissions:
+  ${mod_id}.reload:
+    description: Allows reloading the configuration
+    default: op
